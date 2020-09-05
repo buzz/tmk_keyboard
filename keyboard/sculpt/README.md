@@ -60,38 +60,38 @@ There are 30 pins on the US layout Sculpt flex cable. Pin 1 is the outermost
 pin (closest to the rounded corner with the writing) and lines up with the
 pin marked "1" underneath a triangle on the US controller PCB.
 
-| Pin | Matrix Connection        |
-| --- | ------------------------ |
-| 1   | Fn Switch                |
-| 2   | row 1                    |
-| 3   | row 2                    |
-| 4   | row 3                    |
-| 5   | row 4                    |
-| 6   | row 5                    |
-| 7   | row 6                    |
-| 8   | row 7                    |
-| 9   | row 8                    |
-| 10  | col A                    |
-| 11  | col B                    |
-| 12  | col C                    |
-| 13  | col D                    |
-| 14  | col E                    |
-| 15  | col F                    |
-| 16  | col G                    |
-| 17  | col H                    |
-| 18  | col I                    |
-| 19  | col J                    |
-| 20  | col K                    |
-| 21  | col L                    |
-| 22  | col M                    |
-| 23  | col N                    |
-| 24  | col O                    |
-| 25  | col P                    |
-| 26  | col Q                    |
-| 27  | col R                    |
-| 28  | n/a (Q2 LED)             |
-| 29  | n/a (Q1 LED)             |
-| 30  | GND (LEDs and fn switch) |
+| Pin | Matrix Connection        | Teensy Pin |
+| --- | ------------------------ | ---------- |
+| 1   | Fn Switch                |            |
+| 2   | row 1                    | C7         |
+| 3   | row 2                    | C6         |
+| 4   | row 3                    | D3         |
+| 5   | row 4                    | D2         |
+| 6   | row 5                    | D1         |
+| 7   | row 6                    | D0         |
+| 8   | row 7                    | B7         |
+| 9   | row 8                    | B3         |
+| 10  | col A                    | B2         |
+| 11  | col B                    | B1         |
+| 12  | col C                    | B0         |
+| 13  | col D                    | E6         |
+| 14  | col E                    | D5         |
+| 15  | col F                    | C8         |
+| 16  | col G                    |            |
+| 17  | col H                    | D6         |
+| 18  | col I                    | D7         |
+| 19  | col J                    | B4         |
+| 20  | col K                    | B5         |
+| 21  | col L                    | B6         |
+| 22  | col M                    | F7         |
+| 23  | col N                    | F6         |
+| 24  | col O                    | F5         |
+| 25  | col P                    | F4         |
+| 26  | col Q                    | F1         |
+| 27  | col R                    | F0         |
+| 28  | n/a (Q2 LED)             |          |
+| 29  | n/a (Q1 LED)             |          |
+| 30  | GND (LEDs and fn switch) |          |
 
 ### Modified US/UK layout keyboard matrix
 
